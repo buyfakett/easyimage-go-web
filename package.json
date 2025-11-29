@@ -1,0 +1,40 @@
+{
+  "name": "easyimage-go",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@douyinfe/semi-icons": "^2.88.3",
+    "@douyinfe/semi-icons-lab": "^2.88.3",
+    "@douyinfe/semi-illustrations": "^2.88.3",
+    "@douyinfe/semi-ui-19": "^2.88.3",
+    "alova": "^3.3.4",
+    "dayjs": "^1.11.19",
+    "jwt-decode": "^4.0.0",
+    "monaco-editor-webpack-plugin": "^7.1.1",
+    "motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0",
+    "react-monaco-editor": "^0.59.0",
+    "react-router-dom": "^7.9.6",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.6.9",
+    "@rsbuild/plugin-react": "^1.4.2",
+    "@rsbuild/plugin-sass": "^1.4.0",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "sass": "^1.94.2",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^4.9.5"
+  }
+}
