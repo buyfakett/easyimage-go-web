@@ -8,12 +8,6 @@ interface GetServerInfoResp extends CommonResp  {
     }
 }
 
-interface TestTokenResp extends CommonResp {}
-
 export async function ServerInfo() {
     return request.Get<GetServerInfoResp>(`/api/server_info`);
-}
-
-export async function TestToken() {
-    return request.Get<TestTokenResp>(`/api/test_token`);
 }

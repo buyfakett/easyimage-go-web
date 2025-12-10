@@ -40,12 +40,27 @@ export default defineConfig({
         }
     },
     output: {
+        module: true,
         legalComments: 'none',
         distPath: {
             root: 'dist',
+            js: '',
+            jsAsync: '',
+            css: '',
+            cssAsync: '',
+            image: '',
+            font: '',
+            svg: '',
+            favicon: '',
+            assets: '',
         },
         inlineScripts({ size }) {
             return size < 10 * 1000;
+        },
+        performance: {
+            printFileSize: {
+                diff: true,
+            },
         },
     },
 });

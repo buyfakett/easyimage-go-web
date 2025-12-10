@@ -5,6 +5,7 @@ export const APP_LOGIN_URI: string = '/user/login';
 export const NO_CHECK_PATH_LIST: string[] = ['/', 'user/login'];
 export const NO_TOKEN_API_LIST: string[] = [
     "/api/user/login",
+    "/api/user/captcha",
     "/api/ping",
     "/api/metrics",
     "/api/server_info",

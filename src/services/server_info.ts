@@ -1,5 +1,5 @@
 import { Toast } from '@douyinfe/semi-ui-19';
-import { ServerInfo, TestToken } from "@/src/api/simple_api";
+import { ServerInfo } from "@/src/api/simple_api";
 
 /** 服务信息 */
 export const ServerInfoService = {
@@ -17,20 +17,6 @@ export const ServerInfoService = {
         } catch (err) {
             Toast.error('网络请求异常');
             return {data: {}};
-        }
-    },
-
-    test_token: async () => {
-        try {
-            const resp = await TestToken();
-            if (resp.code !== 200) {
-                Toast.error(resp.msg || '测试失败');
-                return false;
-            }
-            return true;
-        } catch (err) {
-            Toast.error('网络请求异常');
-            return false;
         }
     },
 }
