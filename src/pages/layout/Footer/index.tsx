@@ -11,11 +11,11 @@ export default function Index() {
     useEffect(() => {
         const getServerInfo = async () => {
             const resp = await ServerInfoService.get();
-            if (resp.data.version) {
+            if (resp.data && 'version' in resp.data) {
                 setVersion(resp.data.version);
             }
         }
-        getServerInfo();
+        getServerInfo().then(r => {});
     }, [version]);
     return (
         <Layout.Footer className='flex items-center justify-center w-full gap-2'>
