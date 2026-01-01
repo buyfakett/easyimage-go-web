@@ -9,10 +9,10 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@douyinfe/semi-icons": "^2.89.1",
-    "@douyinfe/semi-icons-lab": "^2.89.1",
-    "@douyinfe/semi-illustrations": "^2.89.1",
-    "@douyinfe/semi-ui-19": "^2.89.1",
+    "@douyinfe/semi-icons": "^2.90.1",
+    "@douyinfe/semi-icons-lab": "^2.90.1",
+    "@douyinfe/semi-illustrations": "^2.90.1",
+    "@douyinfe/semi-ui-19": "^2.90.1",
     "alova": "^3.4.1",
     "motion": "^12.23.26",
     "react": "^19.2.3",
@@ -22,7 +22,7 @@
     "zustand": "^5.0.9"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.15",
+    "@rsbuild/core": "^1.7.1",
     "@rsbuild/plugin-react": "^1.4.2",
     "@rsbuild/plugin-sass": "^1.4.0",
     "@tailwindcss/postcss": "^4.1.18",
