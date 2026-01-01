@@ -22,7 +22,7 @@ export default function Index() {
             <p className="mb-1 flex items-center justify-center">
                 {version}
                 <FaRegCopyright className="ml-1 mr-1 text-sm"/>
-                {year === APP_START_YEAR ? APP_START_YEAR : ` - ${year}`}
+                {year === APP_START_YEAR ? APP_START_YEAR : `${APP_START_YEAR} - ${year}`}
                 <a
                     href="https://github.com/buyfakett"
                     target="_blank"
