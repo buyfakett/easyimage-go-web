@@ -15,9 +15,7 @@ export async function Upload(params: UploadImageParams) {
 
 /** 删除图片 */
 export async function Delete(params: DeleteImageParams) {
-  return request.Delete<DeleteImageResp>(
-    `/api/image/delete?path=${encodeURIComponent(params.path)}`
-  );
+  return request.Delete<DeleteImageResp>(`/api/image/delete?path=${params.path}`);
 }
 
 /** 获取图片列表 */
