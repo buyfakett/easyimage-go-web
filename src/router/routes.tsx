@@ -34,7 +34,7 @@ export const MenuRoutes: IRouters[] = [
     {
         itemKey: '/image/console',
         icon: <IconImage />,
-        text: '图片控制台',
+        text: '图片浏览',
     },
 ];
 
